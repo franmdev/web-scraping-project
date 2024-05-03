@@ -47,6 +47,7 @@ df['Ratio_Num'] = df['Ratio USD'].str.extract('(\d+\.\d+)').astype(float)
 # dataframe con valores ordenados de forma descendente
 df_sorted = df.sort_values(by='Ratio_Num', ascending=False)
 
-df_sorted
+
+print(df_sorted)
 
 
